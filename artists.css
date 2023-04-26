@@ -1,0 +1,134 @@
+
+img {
+    aspect-ratio: 1;
+    display: block;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .wrapper {
+    width: 100%;
+    margin: 50px auto;
+    margin-bottom: 30px;
+  
+  }
+  
+  .cards_wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .cards_wrap .card_item {
+    width: 25%;
+    padding: 10px;
+  }
+  
+  .cards_wrap .card_inner {
+    background: #595959;
+  }
+  
+  .cards_wrap .card_top {
+    width: 100%;
+    min-height: 225px;
+    padding: 10px;
+    padding-bottom: 0;
+  }
+  
+  .cards_wrap .card_bottom {
+    padding: 15px;
+  }
+  
+  .cards_wrap .card_bottom .card_category {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  
+  
+  
+  .cards_wrap .card_bottom .card_creator {
+    text-align: center;
+  }
+  
+  @media (max-width: 1024px) {
+    .cards_wrap .card_item {
+      width: 33.3%;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .cards_wrap .card_item {
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .cards_wrap .card_top {
+      height: auto;
+    }
+    .cards_wrap .card_item {
+      width: 33.3%;
+      align-content: center;
+      padding: 10px;
+    }
+  }
+
+  @media (max-width: 770px) {
+    .cards_wrap .card_top {
+      height: auto;
+    }
+    .cards_wrap .card_item {
+      width: 50%;
+      align-content: center;
+      padding: 10px;
+    }
+  }
+
+  @media (max-width: 590px) {
+    .cards_wrap .card_top {
+      height: auto;
+    }
+    .cards_wrap .card_item {
+      width: 80%;
+      margin: auto;
+      padding: 10px;
+    }
+  }
+
+  
+  @media (max-width: 528px) {
+    .cards_wrap .card_top {
+      height: auto;
+    }
+    .cards_wrap .card_item {
+      width: 100%;
+    }
+  }
+  
+  @keyframes animateButton {
+      0% {
+          opacity: 0;
+          transform: translateY(60px);
+     }
+      100% {
+          opacity: 1;
+          transform: translate(0);
+     }
+  }
+
+  .artistsname{
+    font-size: 20px;
+  }
+
+  .artistsname, a{
+    color: #fff;
+  }
+
+
+.artistsheader, h1 {
+    color: #fff;
+}
+
+i{
+    margin-left: 5px;
+}
